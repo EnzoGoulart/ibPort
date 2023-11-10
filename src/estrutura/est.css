@@ -1,8 +1,8 @@
 @import "~font-awesome/css/font-awesome.css";
 :root {
     --azul: #38b6ff;
-    --azulT: #4169E1;
-    --azulM: #194d6b;
+    --azulT: #10384e;
+    --azulM: #0c2533;
     --rosa: #ec28a1; 
     --preto: #333333;
     --rosaF: #e0c9d8; 
@@ -10,7 +10,7 @@
     --footerHeight: 40px;
   }
 #container{
-    min-height: 110vh; 
+    min-height: 120vh; 
 }
 #header{
     height: 60px;
@@ -118,12 +118,42 @@
     margin-right: 14px;
 }
 .dcm{
-    width: 140px;
+    width: 180px;
     margin-right: 14px;
-    height: 180px;
-    border-radius: 12px;
+    height: 230px;
+    border-radius: 12px; 
+    overflow: hidden;
     pointer-events: none;
     background-color: var(--azulT);
+}
+#cim{
+    width: 100%;
+    height: 110px;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.418);
+}
+#ctm{
+    padding-top: 10px;
+    text-align: center;
+    color: var(--cinza);
+    width: 100%;
+    height: 40px;
+    overflow: hidden;
+}
+.cdtm{
+    display: flex;
+    color: var(--cinza);
+    font-size: 14px;
+    width: 100%;
+    padding: 0px 0px 0px 12px;
+}
+#cdtm1{
+    padding: 15px 0px 5px 12px;
+} 
+#cdtm2{
+    padding: 0px 0px 12px 12px;
+}
+.dfm{
+    width: 20px;
 }
 .carousel{
     cursor: grab;
@@ -167,10 +197,82 @@
     align-items: center;
 }
 .ttcch{
+    padding-top: 5px;
     font-size: 22px; 
     color: var(--azulT); 
     text-align: center; 
 }
 #engch{
     margin-top: 10px;
+}
+#fb{
+    width: 60%;
+    position: relative;
+    left: 50%;
+    max-width: 700px;
+    margin-top: 20px;
+    transform: translateX(-50%);
+    border-radius: 12px;
+}
+#nb{
+    font-size: 22px;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    margin: auto;
+    padding-top: 10px;
+}
+.db{
+    display: flex;
+    width: 70%;
+    max-width: 700px;
+    margin: auto;
+    justify-content: space-around;
+}
+.ddb{
+    display: flex;
+    padding-top: 10px;
+} 
+.dfb{
+    width: 20px;
+}
+#describ{
+    width: 90%;
+    margin: auto;
+    text-align: left;
+    font-size: 15px;
+    padding: 10px 0px;
+}
+#l1b{
+    width: 90%;
+    height: 3px;
+    margin: auto;
+    border-radius: 12px;
+    background-color: var(--azulM);
+}
+#bb{
+    width: 80%;
+    max-width: 800px;
+    height: 80px;
+    margin-top: 15px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between; 
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    align-items: center;
+    background-color: var(--azulT);
+    cursor: pointer;
+}
+.bbi{
+    font-size: 32px;
+    margin-left: 10%;
+}
+.bbt{
+    width: 60%;
+    margin-right: 20px;
+    color: var(--rosaF);
+    font-size: 16px;
+    text-align: left;
 }
